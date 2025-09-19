@@ -31,18 +31,3 @@ function expe(){
     hm.classList.remove("active");
     exp.classList.add("active");
 }
-
-
-  document.addEventListener("DOMContentLoaded", () => {
-    const navbar = document.querySelector(".navbar");
-    const header = document.querySelector(".hero-section");
-
-    window.addEventListener("scroll", () => {
-        if (window.scrollY > header.offsetHeight) {
-            navbar.classList.add("show");
-        } 
-        else {
-            navbar.classList.remove("show");
-        }
-    });
-});
