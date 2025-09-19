@@ -17,7 +17,7 @@
   
   <script src="bootstrap-5.3.7-dist/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
       <div class="container">
         <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
           <img src="logo.png" alt="Logo" width="30" height="30" class="me-2 rounded-circle">
@@ -28,33 +28,18 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="#" id="hm" onclick="home()">
-                <i class="bi bi-house-door-fill me-1"></i> Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#abouta" id="about" onclick="about()">
-                <i class="bi bi-person-lines-fill me-1"></i> About Me
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#education" id="educ" onclick="educ()">
-                <i class="bi bi-mortarboard-fill me-1"></i> Education
-              </a>
-            </li>
-  
+            <li class="nav-item"><a class="nav-link active" href="#" id="hm" onclick="home()">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#abouta" id="about" onclick="about()">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education" id="educ" onclick="educ()">Education</a></li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="exp" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="bi bi-journal-text me-1"></i> Experience
+                Experience
               </a>
               <ul class="dropdown-menu" aria-labelledby="exp">
                 <li><a class="dropdown-item" href="#experience">Work Experience</a></li>
                 <li><a class="dropdown-item" href="#seminars">Seminars</a></li>
               </ul>
             </li>
-           
-  
           </ul>
         </div>
       </div>
